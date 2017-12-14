@@ -7,7 +7,7 @@ import Footer from '../components/footer';
 import '../../sass/style.scss';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div class="container">
     <Helmet
       title="Gatsby React Boilerplate"
     />

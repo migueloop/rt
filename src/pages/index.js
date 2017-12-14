@@ -3,10 +3,18 @@
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
+import Button from '../components/button';
+import LeftNav from '../layouts/leftnav';
+import Carousel from '../components/carousel';
 
 const IndexPage = props =>
   (<main>
-    <Features data={props.data.allDataJson.edges[0].node.features} />
+
+    <LeftNav></LeftNav>
+    <Carousel></Carousel>
+    
+    {/* <Features data={props.data.allDataJson.edges[0].node.features} /> */}
+    <Button link="www.google.com" text="Google"></Button>
     <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
   </main>);
 
