@@ -17,7 +17,7 @@ const Button = props => (
         <div class="card-footer">
             <small class="text-muted">★ ★ ★ ★ ☆</small>
         </div>
-        </div>
+    </div>
 );
 
 export default Button;
